@@ -1,0 +1,62 @@
+{
+  "name": "tempmailgrab",
+  "version": "1.0.0",
+  "description": "Disposable email inboxes for automated tests. Create a real inbox, wait for the email, read the OTP — no IMAP, no shared mailbox, no regex.",
+  "keywords": [
+    "email-testing",
+    "temporary-email",
+    "disposable-email",
+    "otp",
+    "test-email",
+    "playwright",
+    "cypress",
+    "e2e-testing",
+    "email-api",
+    "mailbox",
+    "verification-code",
+    "qa"
+  ],
+  "license": "MIT",
+  "author": "TempMailGrab",
+  "homepage": "https://tempmailgrab.com/email-testing-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sathishbanoth-coder/tempmailgrab-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sathishbanoth-coder/tempmailgrab-js/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./playwright": {
+      "types": "./dist/playwright.d.ts",
+      "default": "./dist/playwright.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "sideEffects": false
+}
