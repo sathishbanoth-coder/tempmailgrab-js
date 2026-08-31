@@ -23,7 +23,7 @@ await signUpMyApp(inbox.address);
 const code = await inbox.waitForOtp();   // → "448213"
 ```
 
-Zero runtime dependencies. TypeScript types included. Node 18+.
+Zero runtime dependencies. TypeScript types included. Node 20+.
 
 ---
 

@@ -63,7 +63,7 @@ export class TempMailGrab implements Transport {
     const f = options.fetch ?? globalThis.fetch;
     if (typeof f !== 'function') {
       throw new TempMailGrabError(
-        'No fetch implementation found. Use Node 18+, or pass one via the `fetch` option.',
+        'No fetch implementation found. Use Node 20+, or pass one via the `fetch` option.',
       );
     }
     // Bound so undici's fetch keeps its `this` when called as a property.
