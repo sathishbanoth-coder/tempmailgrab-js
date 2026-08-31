@@ -3,6 +3,7 @@
 **Disposable email inboxes for automated tests.** Create a real inbox, wait for the email, read the one-time code — in three lines, with no IMAP server, no shared QA mailbox, and no regex over an HTML template.
 
 [![CI](https://github.com/sathishbanoth-coder/tempmailgrab-js/actions/workflows/ci.yml/badge.svg)](https://github.com/sathishbanoth-coder/tempmailgrab-js/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/tempmailgrab.svg)](https://www.npmjs.com/package/tempmailgrab)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![zero dependencies](https://img.shields.io/badge/runtime_dependencies-0-brightgreen.svg)](./package.json)
 
