@@ -1,6 +1,6 @@
 {
   "name": "tempmailgrab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Disposable email inboxes for automated tests. Create a real inbox, wait for the email, read the OTP — no IMAP, no shared mailbox, no regex.",
   "keywords": [
     "email-testing",

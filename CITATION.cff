@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use TempMailGrab in academic or technical work, please cite it using this metadata."
+title: "TempMailGrab JavaScript SDK"
+version: 1.0.1
+date-released: 2026-08-31
+license: MIT
+url: "https://tempmailgrab.com/email-testing-api"
+repository-code: "https://github.com/sathishbanoth-coder/tempmailgrab-js"
+authors:
+  - name: TempMailGrab
